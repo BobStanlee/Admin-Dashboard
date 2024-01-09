@@ -84,37 +84,52 @@
             </ul>
         </div>
     
-        <div class="col-start-3 col-span-12 row-span-2 bg-blue-300 shadow-lg px-6 py-4"><!-- Multi Functional Menu -->
-            <div class="flex justify-between"><!--Upper Functionality-->
+        <div class="col-start-3 col-span-12 row-span-2 bg-white shadow-lg px-6 py-2"><!-- Multi Functional Menu -->
+            <div class="flex justify-between mb-2"><!--Upper Functionality-->
                 <div class="flex justify-center content-center w-full max-w-lg"><!-- Search -->
-                    <label for="search">
-                        <span class="material-symbols-outlined mr-4">search</span>
+                    <label for="search" class="flex content-center justify-center mr-4">
+                        <span class="material-symbols-outlined pt-2">search</span>
                     </label>
-                    <input type="search" name="search" id="search" class="w-full rounded-full bg-gray-300 px-4 py-1 outline-none focus:shadow-xl shadow-md transition-shadow">
+                    <input type="search" name="search" id="search" class="w-full rounded-full bg-gray-300 px-4 py-1 outline-none focus:shadow-xl shadow-sm transition-shadow">
                 </div>
 
-                <div><!--Account Settings-->
+                <div class="flex justify-center content-center gap-6"><!--Account Settings-->
                     <div><!--Notification-->
-                        <span class="material-symbols-outlined">Notifications</span>
+                        <span class="material-symbols-outlined pt-2">Notifications</span>
                     </div>
-                    <div><!--Profile-Icon-->
-                        
+                    <div class="rounded-full overflow-hidden"><!--Profile-Icon-->
+                        <img src="./img/panda1.jpg" alt="" class="object-contain w-10">
                     </div>
-                    <div><!--Profile-Name-->
-
+                    <div class="font-bold align-middle pt-2"><!--Profile-Name-->
+                        Bob Stanley
                     </div>
                 </div>
             </div>
 
-            <div><!--Lower Functionality-->
-                <div><!--Profile-Container-->
+            <div class="flex align-middle justify-between"><!--Lower Functionality-->
+                <div class="flex align-middle gap-4"><!--Profile-Container-->
+                    <div class="rounded-full overflow-hidden"><!--Profile img-->
+                        <img src="./img/panda1.jpg" alt="" class="object-contain w-16">
+                    </div>
 
+                    <div class="flex flex-col gap-1">
+                        <span>Hi there,</span>
+                        <span class="font-bold text-2xl">Bob Stanley (@stagbont)</span>
+                    </div>
                 </div>
 
-                <div><!--Lower Function Buttons-->
-                    <ul>
+                <div class="flex align-middle justify-center items-center"><!--Lower Function Buttons-->
+                    <ul class="flex gap-5">
                         <li>
-                            <a href="#">New</a>
+                            <a href="#" class="flex items-center align-middle justify-center w-24 h-8 bg-blue-500 rounded-full text-white font-bold">New</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="flex items-center align-middle justify-center w-24 h-8 bg-blue-500 rounded-full text-white font-bold">Upload</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="flex items-center align-middle justify-center w-24 h-8 bg-blue-500 rounded-full text-white font-bold">Share</a>
                         </li>
                     </ul>
                 </div>
@@ -122,7 +137,7 @@
         </div>
     
         <div><!-- Your Projects -->
-    
+            
         </div>
     
         <div><!-- Announcements -->
